@@ -1,0 +1,240 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  color: #50735f;
+  line-height: 1.5;/* межстрочный интервал */
+  font-size: 1rem; /* размер шрифта */
+}
+
+.container{
+  display: flex;
+    flex-direction: column;
+    max-width: 1440px;
+    margin: auto;
+    min-height: 100%;
+    overflow: hidden;
+    box-sizing: border-box;
+
+}
+
+.greenline {
+    display: flex;
+   justify-content:center;
+   align-items: center;
+   column-gap: 50px;
+min-height: 46px;
+      background-color: #50735f; 
+        font-family: 'Figtree', Georgia, monospace;
+               font-size: 14px;
+       line-height: 14px;
+    color:white;
+          }
+
+
+.background {
+
+  background: url(../img/fon.png);
+  background-position: center center;
+  height: 700px;
+  background-repeat: no-repeat;
+}
+
+.gap {
+
+  min-height: 200px; }
+
+.navigation{
+
+display: flex;/* ставит блоки в 1 строку */
+align-items: center; /* центрирует блоки относительно друг друга */
+justify-content: space-around; /* блоки выравниваются по всей ширине справа на лево */
+flex: 1; 
+}
+
+.navigation a{
+text-decoration: none;
+color: rgb(255, 255, 255); 
+} 
+
+.logomain{
+display: flex;
+flex-basis: 20%;
+}
+
+.search{
+  display: flex;
+flex-basis: 20%;
+column-gap: 20px;
+}
+
+.menu{
+  display: flex;
+  flex: 1;
+column-gap: 20px;
+ 
+}
+
+
+.text, .text2 {
+  color: white;
+font-family:Arial, Helvetica, sans-serif;
+font-weight: 400;
+font-size: 4rem;
+line-height: 4rem;
+}
+
+.text{
+  padding-top:182px;
+padding-left:737px;
+}
+.text2{  padding-top:4px;
+  padding-left:631px;
+}
+
+.text3{
+
+    color: white;
+    
+  font-family: 'Figtree', Georgia, monospace;
+  font-weight: 400;
+padding:20px 386px 266px 740px;
+box-sizing: border-box;
+}
+
+.button{
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;;
+  font-weight: 400;
+  border: 1px solid #C58A46;
+  background-color:#C58A46 ;
+  border-radius: 88px;
+  padding: 16px 60px;
+  display: inline-block;
+ margin-top: 48px;
+ 
+}
+
+.footercolor {
+
+  background-color: #50735f; 
+  font-family: 'Figtree', Georgia, monospace;
+ line-height: 14px;
+ padding: 46px 70px 44px 70px; 
+color:white;
+flex-basis:  1;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+}
+
+.column1{
+  display: flex;
+  flex: 1;
+  flex-flow: column ;
+  justify-content: space-around;
+  
+}
+
+.getoff{
+  display: flex;
+  flex-basis: 20%;
+  
+}
+
+.subscribe{
+  display: flex;
+  flex-flow: row; 
+  flex: 1;
+justify-content:flex-start;
+
+
+}
+
+.enter{
+  display: flex;
+  
+}
+
+ .logofooter{
+  display: flex;
+  flex:1;
+}
+
+
+.right{ display: flex;
+  flex-basis:20%;
+}
+
+.btnsubscribe{
+  display: flex;
+  flex: 1;
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;;
+  font-weight: 400;
+  border: 1px solid #C58A46;
+  background-color:#C58A46 ;
+  border-top-right-radius:  8px;
+  border-bottom-right-radius:  8px;
+  padding: 9px 35px;
+}
+
+
+.menufooter{
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+  flex: 1;
+  
+  }
+
+ .menufooter a {
+  text-decoration:none;
+  color: white;
+  
+ }
+ .menufooter ul {
+ list-style: none; 
+}
+ .menufooter ul li a:hover{
+  color: red;
+}
+ 
+ .email {
+  border: 1px solid #abadb3;
+  height: 47px;
+  background-color: #50735f;
+  border-top-left-radius:  8px;
+  border-bottom-left-radius:  8px;
+  margin-right: -4px;
+  }
+
+  .email:focus {
+    border: 1px solid ; /* Параметры рамки */
+    background: rgb(255, 255, 255); /* Цвет фона */
+   
+  }
+
+
+
+.circle {
+    width:50px;
+  height:50px;
+  background-color:#50735f;
+  border-radius:50%;
+  animation: action 4s ease infinite alternate 0s forwards
+    }
+  @keyframes action {
+  from {margin-left:0;} 
+    50% {border-radius:0%;}
+  to {margin-left:1370px;} 
+  }
+
+
+
+

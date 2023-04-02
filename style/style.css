@@ -128,6 +128,7 @@ box-sizing: border-box;
 color:white;
 flex-basis:  1;
 display: flex;
+min-height: 375px;
 flex-direction: row;
 justify-content: space-around;
 }
@@ -149,39 +150,43 @@ justify-content: space-around;
 .subscribe{
   display: flex;
   flex-flow: row; 
-  flex: 1;
+  flex: 40%;
 justify-content:flex-start;
 
 
 }
 
-.enter{
-  display: flex;
-  
-}
-
  .logofooter{
   display: flex;
-  flex:1;
+  flex:20%;
+  align-items: flex-end;
 }
 
 
 .right{ display: flex;
   flex-basis:20%;
+  align-items: flex-end;
 }
 
-.btnsubscribe{
+.btnsubscribe {
   display: flex;
-  flex: 1;
-  color: white;
-  text-decoration: none;
-  font-size: 1rem;;
-  font-weight: 400;
+  flex-basis: 20%;
+  height: 47px;
+  justify-content: center;
+  align-items: center;
   border: 1px solid #C58A46;
   background-color:#C58A46 ;
+  font-weight: 400;
+  font-size: 1rem;
   border-top-right-radius:  8px;
   border-bottom-right-radius:  8px;
-  padding: 9px 35px;
+}
+
+.btnsubscribe a {
+  text-decoration: none;
+   color: white;
+ 
+
 }
 
 
@@ -189,6 +194,7 @@ justify-content:flex-start;
   display: flex;
   flex-flow: row;
   justify-content: space-around;
+  
   flex: 1;
   
   }
@@ -206,16 +212,18 @@ justify-content:flex-start;
 }
  
  .email {
-  border: 1px solid #abadb3;
+  display: flex;
+  flex-basis: 60%;
+  border: 1px solid #abadb3; 
   height: 47px;
   background-color: #50735f;
   border-top-left-radius:  8px;
   border-bottom-left-radius:  8px;
-  margin-right: -4px;
-  }
+} 
+ 
 
   .email:focus {
-    border: 1px solid ; /* Параметры рамки */
+     border: 1px solid ; /* Параметры рамки */ 
     background: rgb(255, 255, 255); /* Цвет фона */
    
   }
@@ -235,6 +243,10 @@ justify-content:flex-start;
   to {margin-left:1370px;} 
   }
 
-
+.payment, .care, .social, .sitemap{
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
 
 

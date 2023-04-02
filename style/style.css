@@ -41,6 +41,7 @@ min-height: 46px;
   background-position: center center;
   height: 700px;
   background-repeat: no-repeat;
+  color: white;
 }
 
 .gap {
@@ -78,9 +79,17 @@ column-gap: 20px;
  
 }
 
+.textonphoto{
+  color: white;
+  display: flex;
+  flex-flow: column wrap;
+row-gap: 20px;
+padding-top:130px;
+padding-left:637px
+
+}
 
 .text, .text2 {
-  color: white;
 font-family:Arial, Helvetica, sans-serif;
 font-weight: 400;
 font-size: 4rem;
@@ -88,24 +97,26 @@ line-height: 4rem;
 }
 
 .text{
-  padding-top:182px;
-padding-left:737px;
-}
-.text2{  padding-top:4px;
-  padding-left:631px;
+   margin-left:100px
 }
 
 .text3{
+max-width: 500px;
 
-    color: white;
-    
-  font-family: 'Figtree', Georgia, monospace;
+ padding-left:100px; 
+   font-family: 'Figtree', Georgia, monospace;
   font-weight: 400;
-padding:20px 386px 266px 740px;
-box-sizing: border-box;
-}
+} 
 
 .button{
+padding-left:100px; 
+
+}
+.button a{
+  display: flex;
+  justify-content: center;
+  flex-basis: 100px;
+ width: 250px;
   color: white;
   text-decoration: none;
   font-size: 1rem;;
@@ -113,11 +124,9 @@ box-sizing: border-box;
   border: 1px solid #C58A46;
   background-color:#C58A46 ;
   border-radius: 88px;
-  padding: 16px 60px;
-  display: inline-block;
- margin-top: 48px;
- 
-}
+  padding: 16px 60px; 
+  
+  }
 
 .footercolor {
 
@@ -126,7 +135,6 @@ box-sizing: border-box;
  line-height: 14px;
  padding: 46px 70px 44px 70px; 
 color:white;
-flex-basis:  1;
 display: flex;
 min-height: 375px;
 flex-direction: row;
@@ -227,7 +235,6 @@ justify-content:flex-start;
     background: rgb(255, 255, 255); /* Цвет фона */
    
   }
-
 
 
 .circle {
